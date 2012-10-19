@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ruleset name="WordPress_CS">
+ <description>DNI WordPress Plugin coding standard ruleset</description>
+ <exclude-pattern>*/tests/*</exclude-pattern>
+ <exclude-pattern>*.js*</exclude-pattern>
+ <rule ref="WordPress" />
+ <rule ref="Generic.PHP.DisallowShortOpenTag" />
+ <rule ref="Generic.PHP.NoSilencedErrors" />
+ <rule ref="Generic.PHP.UpperCaseConstant" />
+ <rule ref="Generic.Commenting.Todo" />
+ <rule ref="Generic.Commenting.Fixme" />
+ 
+ <rule ref="Generic.CodeAnalysis.UnusedFunctionParameter" />
+ <rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop" />
+ <rule ref="Generic.CodeAnalysis.ForLoopWithTestFunctionCall" />
+ <rule ref="Generic.CodeAnalysis.JumbledIncrementer" />
+ <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement" />
+ <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier" />
+ <rule ref="Generic.CodeAnalysis.UselessOverridingMethod" />
+ 
+ <rule ref="Zend.Files.ClosingTag" />
+ <!--
+ <rule ref="PEAR.Commenting.InlineComment" />
+ <rule ref="PEAR.Commenting.FunctionComment" />
+ -->
+ 
+ <!--
+ <rule ref="PEAR.Commenting.FileComment" />
+ <rule ref="PEAR.Commenting.ClassComment" />
+ -->
+</ruleset>
