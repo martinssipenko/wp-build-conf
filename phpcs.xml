@@ -4,6 +4,7 @@
  <description>DNI WordPress Plugin coding standard ruleset</description>
  <exclude-pattern>*/tests/*</exclude-pattern>
  <exclude-pattern>*.js*</exclude-pattern>
+ <exclude-pattern>*.css*</exclude-pattern>
  <rule ref="WordPress" />
  <rule ref="Generic.PHP.DisallowShortOpenTag" />
  <rule ref="Generic.PHP.NoSilencedErrors" />
